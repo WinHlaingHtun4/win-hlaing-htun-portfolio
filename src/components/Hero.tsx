@@ -38,7 +38,7 @@ const Hero = () => {
             >
               Hello, I'm
             </motion.p>
-            
+
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-4 sm:mb-6">
               Win Hlaing Htun
             </h1>
@@ -79,15 +79,15 @@ const Hero = () => {
                   →
                 </motion.div>
               </Button>
-              
-              <Button
+
+              {/*<Button
                 size="lg"
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base sm:text-lg"
               >
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
-              </Button>
+              </Button>*/}
             </div>
           </motion.div>
 
